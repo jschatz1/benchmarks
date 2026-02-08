@@ -7,7 +7,8 @@
     "build:rspack": "rspack build --config rspack.config.mjs",
     "build:rollup": "rollup --config rollup.config.mjs",
     "build:esbuild": "esbuild ./src/entry.ts --bundle --outdir=dist-esbuild --platform=node --minify --sourcemap",
-    "build:bun": "bun build ./src/entry.ts --outdir=dist-bun --production --sourcemap"
+    "build:bun": "bun build ./src/entry.ts --outdir=dist-bun --production --sourcemap",
+    "build:howth": "howth bundle ./src/entry.ts --outfile dist-howth/main.js --minify --sourcemap"
   },
   "keywords": [],
   "author": "",

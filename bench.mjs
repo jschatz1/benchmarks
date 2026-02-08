@@ -74,14 +74,15 @@ function escapeShellArg(arg) {
 }
 
 // Run benchmark for all tools
-const tools = ['vite', 'rsbuild', 'rspack', 'rolldown', 'esbuild', 'bun'];
+const tools = ['vite', 'rsbuild', 'rspack', 'rolldown', 'esbuild', 'bun', 'howth'];
 const toolDisplayNames = {
   'vite': 'rolldown-vite',
   'rsbuild': 'rsbuild',
   'rspack': 'rspack',
   'rolldown': 'rolldown',
   'esbuild': 'esbuild',
-  'bun': 'bun'
+  'bun': 'bun',
+  'howth': 'howth'
 };
 const tempJsonFile = '.bench-temp.json';
 
@@ -180,6 +181,7 @@ function getToolVersions() {
     'rolldown': 'pnpm rolldown --version',
     'esbuild': 'pnpm esbuild --version',
     'bun': 'bun --version',
+    'howth': 'howth version',
   };
 
   const versions = {};
