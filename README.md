@@ -92,13 +92,13 @@ MacBook Pro, Apple M3 Pro, 11 cores (5P + 6E), 18GB RAM
 
 | Tool          | Version    | Time (mean ± σ)           | Comparison | JS        | CSS       | Sourcemaps |
 | ------------- | ---------- | ------------------------: | ---------- | --------- | --------- | ---------- |
-| bun           | 1.3.9      |        314.12 ±   7.16 ms | 1.0x       | 5.34 MB   | not found | 12.56 MB   |
-| howth         | 0.1.0      |        672.22 ±  72.59 ms | 2.1x       | 5.82 MB   | not found | 5.36 MB    |
-| esbuild       | 0.27.3     |        718.64 ±  47.52 ms | 2.3x       | 11.62 MB  | 75 B      | 28.67 MB   |
-| rolldown      | 1.0.0-rc.3 |        784.57 ± 108.30 ms | 2.5x       | 5.22 MB   | 37 B      | 12.89 MB   |
-| rolldown-vite | 7.3.1      |       1212.57 ±  34.28 ms | 3.9x       | 5.28 MB   | 1 B       | 12.79 MB   |
-| rsbuild       | 1.7.3      |       1540.69 ±  39.53 ms | 4.9x       | 5.70 MB   | not found | 12.46 MB   |
-| rspack        | 1.7.5      |       1624.75 ±  20.93 ms | 5.2x       | 5.18 MB   | not found | 12.34 MB   |
+| howth         | 0.1.0      |        275.79 ±  74.33 ms | 1.0x       | 5.72 MB   | not found | 4.78 MB    |
+| bun           | 1.3.9      |        349.81 ±  24.57 ms | 1.3x       | 5.34 MB   | not found | 12.56 MB   |
+| esbuild       | 0.27.3     |        724.34 ±  44.89 ms | 2.6x       | 11.62 MB  | 75 B      | 28.67 MB   |
+| rolldown      | 1.0.0-rc.3 |        765.37 ±  29.54 ms | 2.8x       | 5.22 MB   | 37 B      | 12.89 MB   |
+| rolldown-vite | 7.3.1      |       1202.57 ±  33.90 ms | 4.4x       | 5.28 MB   | 1 B       | 12.79 MB   |
+| rsbuild       | 1.7.3      |       1587.31 ±  24.39 ms | 5.8x       | 5.70 MB   | not found | 12.46 MB   |
+| rspack        | 1.7.5      |       1647.77 ±  44.29 ms | 6.0x       | 5.18 MB   | not found | 12.34 MB   |
 
 
 ### GCP c3-highcpu-8 — Linux x64 (updated 2026-02-09)
