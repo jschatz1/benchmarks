@@ -68,7 +68,7 @@ Due to different native languages and architectural differences, the results may
 
 | Tool          | Version    | Time (mean ± σ)           | Comparison | JS        | CSS       | Sourcemaps |
 | ------------- | ---------- | ------------------------: | ---------- | --------- | --------- | ---------- |
-| howth         | 0.1.0      |        275.79 ±  74.33 ms | 1.0x       | 5.72 MB   | not found | 4.78 MB    |
+| howth         | 0.2.0      |        275.79 ±  74.33 ms | 1.0x       | 5.72 MB   | not found | 4.78 MB    |
 | bun           | 1.3.9      |        349.81 ±  24.57 ms | 1.3x       | 5.34 MB   | not found | 12.56 MB   |
 | esbuild       | 0.27.3     |        724.34 ±  44.89 ms | 2.6x       | 11.62 MB  | 75 B      | 28.67 MB   |
 | rolldown      | 1.0.0-rc.3 |        765.37 ±  29.54 ms | 2.8x       | 5.22 MB   | 37 B      | 12.89 MB   |
@@ -95,7 +95,7 @@ Intel Xeon Platinum 8481C @ 2.70GHz, 4 cores / 8 threads, 16GB RAM
 
 | Tool          | Version    | Time (mean ± σ)           | Comparison | JS        | CSS       | Sourcemaps |
 | ------------- | ---------- | ------------------------: | ---------- | --------- | --------- | ---------- |
-| howth         | 0.1.0      |        275.45 ±   2.13 ms | 1.0x       | 3.44 MB   | not found | 3.32 MB    |
+| howth         | 0.2.0      |        275.45 ±   2.13 ms | 1.0x       | 3.44 MB   | not found | 3.32 MB    |
 | bun           | 1.3.9      |        307.42 ±   2.04 ms | 1.1x       | 844.12 KB | not found | 2.68 MB    |
 | esbuild       | 0.27.3     |        588.83 ±   5.27 ms | 2.1x       | 1.21 MB   | not found | 3.45 MB    |
 | rolldown      | 1.0.0-rc.3 |        734.57 ±  17.31 ms | 2.7x       | 824.03 KB | not found | 2.88 MB    |
