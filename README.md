@@ -1,5 +1,7 @@
 # Rolldown Benchmark
 
+Fork of [rolldown/benchmarks](https://github.com/rolldown/benchmarks) with [howth](https://howth.run) added.
+
 ## Source apps
 
 - Apps containing a mix of React JSX components and plain JS from `node_modules`, with total modules ranging from 2.4k to 19k:
